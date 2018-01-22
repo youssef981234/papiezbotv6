@@ -1,0 +1,70 @@
+[20.537853241] 2018-01-22 22:56:31,009 - INFO - launcher: Starting sanity checks
+[20.537853241] 2018-01-22 22:56:31,009 - INFO - launcher: Checking for Python 3.5+
+[21.039247513] 2018-01-22 22:56:31,010 - INFO - launcher: Checking console encoding
+[21.039247513] 2018-01-22 22:56:31,010 - INFO - launcher: Setting console encoding to UTF-8
+[21.039247513] 2018-01-22 22:56:31,010 - INFO - launcher: Ensuring we're in the right environment
+[22.049188614] 2018-01-22 22:56:31,011 - INFO - launcher: Adding local bins/ folder to path
+[22.049188614] 2018-01-22 22:56:31,011 - INFO - launcher: Required checks passed.
+[23.627042770] 2018-01-22 22:56:31,012 - INFO - launcher: Optional checks passed.
+[23.627042770] 2018-01-22 22:56:31,012 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.8229572772979736] 2018-01-22 22:56:31,812 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 213 in _setup_logging: Set logging level to INFO
+[0.8229572772979736] 2018-01-22 22:56:31,812 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 80 in __init__: =========== MusicBot (version 1.9.6_2) ===========
+[0.8240866661071777] 2018-01-22 22:56:31,813 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 86 in __init__: Loaded autoplaylist with 131 entries
+[0.825911283] launcher-INFO: Connecting
+[3.6146013736724854] 2018-01-22 22:56:34,603 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 1011 in on_ready: Connection established, ready to go.
+[3.6151030063629150] 2018-01-22 22:56:34,604 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 324 in _cache_app_info: Caching app info
+[3.8161833286285400] 2018-01-22 22:56:34,805 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[3.8211879730224609] 2018-01-22 22:56:34,810 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 844 in _scheck_server_permissions: Checking server permissions
+[3.8216979503631592] 2018-01-22 22:56:34,811 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[3.8216979503631592] 2018-01-22 22:56:34,811 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 852 in _scheck_configs: Validating config
+[3.8221685886383057] 2018-01-22 22:56:34,811 - DEBUG - musicbot.config | In config.py::MainThread(7068), line 155 in async_validate: Validating options...
+[3.8221685886383057] 2018-01-22 22:56:34,811 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 855 in _scheck_configs: Validating permissions config
+[3.8227002620697021] 2018-01-22 22:56:34,812 - DEBUG - musicbot.permissions | In permissions.py::MainThread(7068), line 59 in async_validate: Validating permissions...
+[3.8231797218322754] 2018-01-22 22:56:34,812 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1022 in on_ready: Connected to Discord!
+[3.8247117996215820] 2018-01-22 22:56:34,814 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1032 in on_ready: Bot:   405055758456324097/Jan DJ II#8469 [BOT]
+[3.8261833190917969] 2018-01-22 22:56:34,815 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1040 in on_ready: Owner: 329605484409782277/CYG4N#2023
+
+[3.8276824951171875] 2018-01-22 22:56:34,817 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1043 in on_ready: Server List:
+[3.8291916847229004] 2018-01-22 22:56:34,818 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1044 in <listcomp>:  - Rakowy Discord
+[3.8306915760040283] 2018-01-22 22:56:34,820 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1088 in on_ready: Not bound to any text channels
+[3.8337330818176270] 2018-01-22 22:56:34,823 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1114 in on_ready: Not autojoining any voice channels
+[3.8352031707763672] 2018-01-22 22:56:34,824 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1118 in on_ready: Options:
+[3.8370144367218018] 2018-01-22 22:56:34,826 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1120 in on_ready:   Command prefix: !
+[3.8385281562805176] 2018-01-22 22:56:34,827 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1121 in on_ready:   Default volume: 25%
+[3.8400280475616455] 2018-01-22 22:56:34,829 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[3.8415322303771973] 2018-01-22 22:56:34,830 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[3.8435413837432861] 2018-01-22 22:56:34,832 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1125 in on_ready:   Auto-Summon: Enabled
+[3.8450450897216797] 2018-01-22 22:56:34,834 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1126 in on_ready:   Auto-Playlist: Enabled
+[3.8465456962585449] 2018-01-22 22:56:34,835 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1127 in on_ready:   Auto-Pause: Enabled
+[3.8480439186096191] 2018-01-22 22:56:34,837 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1128 in on_ready:   Delete Messages: Enabled
+[3.8495759963989258] 2018-01-22 22:56:34,838 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1130 in on_ready:     Delete Invoking: Disabled
+[3.8530845642089844] 2018-01-22 22:56:34,842 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1131 in on_ready:   Debug Mode: Disabled
+[3.8545851707458496] 2018-01-22 22:56:34,843 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 1132 in on_ready:   Downloaded songs will be saved
+[3.8575985431671143] 2018-01-22 22:56:34,846 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 252 in _join_startup_channels: Found resumable voice channel Rakowy Discord/🔨 Minecraft
+[3.8595979213714600] 2018-01-22 22:56:34,848 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 258 in _join_startup_channels: Found owner in "🔨 Minecraft"
+[3.8611071109771729] 2018-01-22 22:56:34,850 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 267 in _join_startup_channels: Attempting to join Rakowy Discord/🔨 Minecraft
+[3.8647615909576416] 2018-01-22 22:56:34,854 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 437 in get_voice_client: Connection attempt 1 to 🔨 Minecraft
+[3.8652689456939697] 2018-01-22 22:56:34,854 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7068), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[3.8663098812103271] 2018-01-22 22:56:34,855 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7068), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[3.8668098449707031] 2018-01-22 22:56:34,856 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7068), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.0056703090667725] 2018-01-22 22:56:34,995 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 2552 in on_voice_state_update: Resumed voice connection to Rakowy Discord/🔨 Minecraft
+[4.0061724185943604] 2018-01-22 22:56:34,995 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7068), line 2564 in on_voice_state_update: Voice state update for 405055758456324097/Jan DJ II#8469 on Rakowy Discord/🔨 Minecraft -> [RESUME, CONNECT]
+[4.0071740150451660] 2018-01-22 22:56:34,996 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7068), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.1127123832702637] 2018-01-22 22:56:35,102 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7068), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[4.3738126754760742] 2018-01-22 22:56:35,363 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7068), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[4.3742854595184326] 2018-01-22 22:56:35,363 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 463 in get_voice_client: Connected in 0.5s
+[4.3748190402984619] 2018-01-22 22:56:35,364 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 464 in get_voice_client: Connected to Rakowy Discord/🔨 Minecraft
+[4.3767917156219482] 2018-01-22 22:56:35,366 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 805 in deserialize_queue: Deserializing queue for 355394535301447683
+[4.5753381252288818] 2018-01-22 22:56:35,564 - DEBUG - musicbot.bot | In bot.py::MainThread(7068), line 555 in get_player: Created player via deserialization for server 355394535301447683 with 1 entries
+[4.5753381252288818] 2018-01-22 22:56:35,564 - INFO - musicbot.bot | In bot.py::MainThread(7068), line 283 in _join_startup_channels: Joined Rakowy Discord/🔨 Minecraft
+[4.5763423442840576] 2018-01-22 22:56:35,565 - VOICEDEBUG - musicbot.player | In player.py::MainThread(7068), line 311 in websocket_check: Starting websocket check loop for Rakowy Discord
+[4.5763423442840576] 2018-01-22 22:56:35,565 - FFMPEG - musicbot.player | In player.py::MainThread(7068), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-l6mLPmSNE7M-How_to_apply_to_WES_for_Credential_Evaluation_World_Education_Service.webm
+[4.7128949165344238] 2018-01-22 22:56:35,702 - FFMPEG - musicbot.player | In player.py::Thread-3 stderr reader(7756), line 409 in filter_stderr: Data from ffmpeg: b'audio_cache\\youtube-l6mLPmSNE7M-How_to_apply_to_WES_for_Credential_Evaluation_World_Education_Service.webm: No such file or directory\r\n'
+[8.0976450443267822] 2018-01-22 22:56:39,086 - INFO - musicbot.entry | In entry.py::MainThread(7068), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=fcfUk5ptoCY
+[11.2205500602722168] 2018-01-22 22:56:42,209 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7068), line 2564 in on_voice_state_update: Voice state update for 329605484409782277/CYG4N#2023 on Rakowy Discord/🔨 Minecraft -> [UNMUTE, UNDEAFEN]
+[13.8069820404052734] 2018-01-22 22:56:44,796 - INFO - musicbot.entry | In entry.py::MainThread(7068), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=fcfUk5ptoCY
+[13.8114950656890869] 2018-01-22 22:56:44,800 - FFMPEG - musicbot.player | In player.py::MainThread(7068), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-fcfUk5ptoCY-Spandau_Ballet_-_Gold_-_Lyrics.webm
+[19.3699378967285156] 2018-01-22 22:56:50,359 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7068), line 2564 in on_voice_state_update: Voice state update for 329605484409782277/CYG4N#2023 on Rakowy Discord/🔨 Minecraft -> [MUTE, DEAFEN]
